@@ -1,34 +1,39 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat|Nosifer&display=swap');
 
-html, body{
+html,
+body {
     height: 100%;
     width: 100%;
     font-family: 'Montserrat', sans-serif;
 }
 
-.navbar{
-    padding: 10px 20px;
-}
 
-.navbar-brand img{
+// Navbar
+.navbar {
+    padding: 10px 20px;
+
+
+.navbar-brand img {
     height: 70px;
 }
 
-.navbar-nav li{
+.navbar-nav li {
     padding: 0 10px;
 }
 
-.nav-link{
+.nav-link {
     font-size: 18px;
     font-weight: bold;
 }
 
 .nav-link:hover,
-.nav-link.active{
+.nav-link.active {
     border-bottom: .1rem solid #563d71;
 }
+}
 
-.carousel-inner img{
+// Carousel
+.carousel-inner img {
     width: 100%;
 }
 
@@ -38,21 +43,78 @@ html, body{
     transform: translateY(-50%);
     top: 57%;
 
-    h1{
-        font-size: 30px;
+    h1 {
+        font-size: 50px;
         text-transform: uppercase;
         text-shadow: 5px 5px 5px black;
     }
 
-    h3{
-        font-size: 26px;
+    h3 {
+        font-size: 30px;
         text-shadow: 5px 5px 5px black;
         padding-bottom: 8px;
     }
 
-    .btn{
+    .btn {
         font-weight: normal;
         border-width: medium;
     }
 }
 
+.fa-html5 {
+    font-size: 80px;
+    margin: 30px;
+    color: #e54d26;
+}
+
+.fa-book {
+    font-size: 80px;
+    margin: 30px;
+    color: #563d71;
+}
+
+.fa-css3 {
+    font-size: 80px;
+    margin: 30px;
+    color: #2163af;
+}
+
+.col-lg-6 img {
+    width: 100%
+}
+
+
+.social {
+    a {
+        font-size: 55px;
+        padding: 50px 50px;
+        color: #85888c;
+        text-decoration: none;
+    }
+
+    a:hover{
+        color: #6648b1;
+    }
+}
+
+
+// Footer
+footer{
+    background-color: #3f3f3f;
+    color: #d5d5d5;
+    padding: 60px;
+}
+
+hr.border{
+    width: 75%;
+}
+
+hr.socket{
+    border-top: 2px solid #d5d5d5;
+    padding: 25px;
+}
+
+
+// @media (max-width:){
+    
+// }
