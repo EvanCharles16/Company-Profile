@@ -86,8 +86,28 @@ body {
   text-decoration: none;
 }
 
-.social a:hover {
-  color: #6648b1;
+.social a .fa-facebook:hover {
+  background: #3B5998;
+  color: white;
+  border-radius: 50%;
+}
+
+.social a .fa-twitter:hover {
+  background: #55ACEE;
+  color: white;
+  border-radius: 50%;
+}
+
+.social a .fa-whatsapp:hover {
+  background: #00b489;
+  color: white;
+  border-radius: 50%;
+}
+
+.social a .fa-youtube:hover {
+  background: #bb0000;
+  color: white;
+  border-radius: 50%;
 }
 
 footer {
@@ -96,11 +116,11 @@ footer {
   padding: 60px;
 }
 
-hr.border {
+hr .border {
   width: 75%;
 }
 
-hr.socket {
+hr .socket {
   border-top: 2px solid #d5d5d5;
   padding: 25px;
 }

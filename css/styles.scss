@@ -13,23 +13,23 @@ body {
     padding: 10px 20px;
 
 
-.navbar-brand img {
-    height: 70px;
-}
+    .navbar-brand img {
+        height: 70px;
+    }
 
-.navbar-nav li {
-    padding: 0 10px;
-}
+    .navbar-nav li {
+        padding: 0 10px;
+    }
 
-.nav-link {
-    font-size: 18px;
-    font-weight: bold;
-}
+    .nav-link {
+        font-size: 18px;
+        font-weight: bold;
+    }
 
-.nav-link:hover,
-.nav-link.active {
-    border-bottom: .1rem solid #563d71;
-}
+    .nav-link:hover,
+    .nav-link.active {
+        border-bottom: .1rem solid #563d71;
+    }
 }
 
 // Carousel
@@ -90,31 +90,51 @@ body {
         padding: 50px 50px;
         color: #85888c;
         text-decoration: none;
-    }
 
-    a:hover{
-        color: #6648b1;
+        .fa-facebook:hover {
+            background: #3B5998;
+            color: white;
+            border-radius: 50%;
+        }
+
+        .fa-twitter:hover {
+            background: #55ACEE;
+            color: white;
+            border-radius: 50%;
+        }
+
+        .fa-whatsapp:hover {
+            background: #00b489;
+            color: white;
+            border-radius: 50%;
+        }
+
+        .fa-youtube:hover {
+            background: #bb0000;
+            color: white;
+            border-radius: 50%;
+        }
     }
 }
 
-
 // Footer
-footer{
+footer {
     background-color: #3f3f3f;
     color: #d5d5d5;
     padding: 60px;
 }
 
-hr.border{
-    width: 75%;
-}
+hr {
+    .border {
+        width: 75%;
+    }
 
-hr.socket{
-    border-top: 2px solid #d5d5d5;
-    padding: 25px;
+    .socket {
+        border-top: 2px solid #d5d5d5;
+        padding: 25px;
+    }
 }
-
 
 // @media (max-width:){
-    
+
 // }
