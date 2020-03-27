@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat|Nosifer&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Allura|Montserrat|Nosifer&display=swap");
 html,
 body {
   height: 100%;
@@ -79,6 +79,32 @@ body {
   width: 100%;
 }
 
+.services h2, .about h2, .portfolio h2, .contact h2 {
+  font-family: 'Allura', cursive;
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+}
+
+.portfolio .content {
+  width: 28%;
+  border-top: 2px solid black;
+}
+
+.portfolio .view-zoom img {
+  width: 100%;
+  display: block;
+  height: auto;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.portfolio .view-zoom img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
 .social a {
   font-size: 55px;
   padding: 50px 50px;
@@ -122,6 +148,6 @@ hr .border {
 
 hr .socket {
   border-top: 2px solid #d5d5d5;
-  padding: 25px;
+  padding: 20px;
 }
 /*# sourceMappingURL=styles.css.map */
