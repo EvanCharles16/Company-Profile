@@ -61,57 +61,109 @@ body {
     }
 }
 
-.fa-html5 {
-    font-size: 80px;
-    margin: 30px;
-    color: #e54d26;
+// Services
+.services {
+    .content {
+        width: 45%;
+        border-top: 2px solid black;
+    }
+
+    h2 {
+        font-family: 'Allura', cursive;
+        font-size: 38px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        word-spacing: 10px;
+    }
+
+
+    .fa-html5 {
+        font-size: 80px;
+        margin: 30px;
+        color: #e54d26;
+    }
+
+    .fa-book {
+        font-size: 80px;
+        margin: 30px;
+        color: #563d71;
+    }
+
+    .fa-css3 {
+        font-size: 80px;
+        margin: 30px;
+        color: #2163af;
+    }
 }
 
-.fa-book {
-    font-size: 80px;
-    margin: 30px;
-    color: #563d71;
+// About Us
+.about {
+    h2 {
+        font-family: 'Allura', cursive;
+        font-size: 38px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        word-spacing: 10px;
+    }
+
+    .content {
+        width: 24%;
+        border-top: 2px solid black;
+    }
+
+    .col-lg-6 img {
+        width: 100%;
+    }
+
 }
 
-.fa-css3 {
-    font-size: 80px;
-    margin: 30px;
-    color: #2163af;
-}
+// Portfolio / Our Team
+.portfolio {
+    h2 {
+        font-family: 'Allura', cursive;
+        font-size: 38px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        word-spacing: 10px;
+    }
 
-.col-lg-6 img {
-    width: 100%
-}
-
-.services h2, .about h2, .portfolio h2, .contact h2{
-    font-family: 'Allura', cursive;
-    font-size: 38px;
-    text-transform: uppercase;
-    letter-spacing: 10px;
-    word-spacing: 10px;
-}
-
-.portfolio{
-    .content{
-        width: 28%;
+    .content {
+        width: 26%;
         border-top: 2px solid black;
     }
 
     .view-zoom {
-        img{
-          width: 100%;
-          display: block;
-          height: auto;
-          -webkit-transition: all 0.5s ease;
-          transition: all 0.5s ease;
+        img {
+            width: 100%;
+            display: block;
+            height: auto;
+            -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
         }
-      
+
         img:hover {
-          transform: scale(1.1);
+            transform: scale(1.1);
         }
-      }
+    }
 }
 
+// Contact
+.contact {
+    h2{
+        font-family: 'Allura', cursive;
+        font-size: 38px;
+        text-transform: uppercase;
+        letter-spacing: 10px;
+        word-spacing: 10px;
+    }
+
+    .content {
+        width: 29%;
+        border-top: 2px solid black;
+    }
+}
+
+// Social Media Icons
 .social {
     a {
         font-size: 55px;

@@ -57,29 +57,55 @@ body {
   border-width: medium;
 }
 
-.fa-html5 {
+.services .content {
+  width: 45%;
+  border-top: 2px solid black;
+}
+
+.services h2 {
+  font-family: 'Allura', cursive;
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+}
+
+.services .fa-html5 {
   font-size: 80px;
   margin: 30px;
   color: #e54d26;
 }
 
-.fa-book {
+.services .fa-book {
   font-size: 80px;
   margin: 30px;
   color: #563d71;
 }
 
-.fa-css3 {
+.services .fa-css3 {
   font-size: 80px;
   margin: 30px;
   color: #2163af;
 }
 
-.col-lg-6 img {
+.about h2 {
+  font-family: 'Allura', cursive;
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+}
+
+.about .content {
+  width: 24%;
+  border-top: 2px solid black;
+}
+
+.about .col-lg-6 img {
   width: 100%;
 }
 
-.services h2, .about h2, .portfolio h2, .contact h2 {
+.portfolio h2 {
   font-family: 'Allura', cursive;
   font-size: 38px;
   text-transform: uppercase;
@@ -88,7 +114,7 @@ body {
 }
 
 .portfolio .content {
-  width: 28%;
+  width: 26%;
   border-top: 2px solid black;
 }
 
@@ -103,6 +129,19 @@ body {
 .portfolio .view-zoom img:hover {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
+}
+
+.contact h2 {
+  font-family: 'Allura', cursive;
+  font-size: 38px;
+  text-transform: uppercase;
+  letter-spacing: 10px;
+  word-spacing: 10px;
+}
+
+.contact .content {
+  width: 29%;
+  border-top: 2px solid black;
 }
 
 .social a {
